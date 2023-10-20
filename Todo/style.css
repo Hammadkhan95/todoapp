@@ -1,0 +1,76 @@
+body {
+    background-image: url('your-background-image-url.jpg'); /* Change to your desired background image */
+    background-size: cover; /* Adjust as needed */
+}
+
+#inputField {
+    font-size: 18px; /* Decreased font size */
+    height: 40px; /* Increased height */
+    width: 320px; /* Wider width */
+    color: navy; /* Text color changed to navy */
+    padding: 8px; /* Slightly reduced padding */
+    box-shadow: 3px 3px 4px gray; /* Modified box shadow */
+    border-radius: 8px; /* Increased border radius */
+    background-color: lightgray; /* Background color changed */
+    font-family: 'Arial', sans-serif; /* Font family changed */
+}
+
+.center-input {
+    text-align: center;
+    margin: 0 auto; /* Center horizontally using margin */
+    display: block;
+}
+
+#inputField:hover {
+    background-color: rgba(0, 128, 0, 0.7); /* Green background on hover */
+    color: white; /* Text color on hover */
+}
+
+
+
+button {
+    font-size: 20px; /* Increased font size */
+    height: 40px; /* Increased height */
+    padding: 6px; /* Slightly reduced padding */
+    margin: 12px; /* Increased margin */
+    border-radius: 10px; /* Increased border radius */
+    box-shadow: 4px 4px 6px gray; /* Modified box shadow */
+    font-family: 'Verdana', sans-serif; /* Font family changed */
+    background-color: cornflowerblue; /* Background color changed */
+}
+
+li {
+    font-size: 20px; /* Decreased font size */
+    text-align: left; /* Changed text alignment to left */
+    list-style-type: disc; /* Changed list style */
+}
+
+h1 {
+    background-color: lightseagreen; /* Background color changed */
+    border-radius: 12px; /* Increased border radius */
+    padding: 10px; /* Increased padding */
+    font-size: 36px; /* Increased font size */
+    text-align: center;
+    font-family: 'Georgia', 'Times New Roman', 'Times', serif;
+}
+
+.center-input {
+    text-align: center;
+}
+
+.center-input input {
+    margin: 0; /* Removed margin to center input */
+    display: block;
+}
+
+@media (max-width: 600px) {
+    #inputField {
+        width: 100%; /* Full width on smaller screens */
+    }
+    #inputField:hover {
+        background-color: transparent; /* No hover background color on smaller screens */
+    }
+    button {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
